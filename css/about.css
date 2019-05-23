@@ -1,0 +1,76 @@
+/***********HEADER OF ABOUT PAGE***********/
+header {
+	background: url(../img/about_us.jpg) no-repeat center top / cover;
+	padding-bottom: 300px;
+}
+/************SECTION GALLERY**********/
+.title {
+	padding-top: 115px;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+#teachers {
+	background: #f7f7f7;
+	padding-bottom: 150px;
+}
+
+#gallery {
+	width: 450px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+#gallery .photos {
+	position: relative;
+	height: 300px;
+}
+
+#gallery .photos img {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	transition: opacity 2s;
+}
+
+#gallery .photos img.showed {
+	opacity: 1;
+}
+
+.buttons .prev, .buttons .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 3px 3px 0;
+}
+
+.buttons .prev:hover,
+.buttons .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.buttons .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.buttons .prev {
+    left: 0;
+}
+
